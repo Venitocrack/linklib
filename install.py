@@ -23,7 +23,7 @@ def get_libdir():
     os_dir += '\\site-packages\\'
     return os_dir 
   else:
-    return os.environ['LIB']
+    return os.environ['LIB'] + '\\site-packages\\'
 
 print('installing...')
 dir = f'{get_libdir()}\\linklib'
