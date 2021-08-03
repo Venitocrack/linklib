@@ -27,7 +27,7 @@ def get_libdir():
 
 print('installing...')
 dir = f'{get_libdir()}\\linklib'
-os.makedirs(f'{dir',exists_ok=True)
+os.makedirs(f'dir',exists_ok=True)
 init_file = open(dir + '\\__init__.py','w')
 utils_file = open(dir + '\\utils.py','w')
 connects_file = open(dir + '\\connects.py','w')
