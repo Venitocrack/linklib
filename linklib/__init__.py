@@ -11,6 +11,7 @@ from linklib.utils import misc
 from linklib.connects import connected,ConnLink
 from linklib.connects import n_connect as connect 
 from linklib.connects import connect as _connect 
+from linklib.connects import undefined
 from linklib.utils import valid
 from linklib.utils.misc import generator
 
